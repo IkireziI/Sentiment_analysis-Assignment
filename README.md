@@ -4,7 +4,7 @@
 ![Models](https://img.shields.io/badge/Models-LogisticRegression%20%7C%20LSTM-green)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements and compares sentiment analysis techniques using both traditional machine learning and deep learning approaches. We analyze the IMDB movie reviews dataset to classify sentiment as positive or negative, showcasing the strengths and limitations of different methodologies.
 
@@ -15,7 +15,7 @@ This project implements and compares sentiment analysis techniques using both tr
 - Systematic hyperparameter tuning and performance evaluation
 - In-depth comparison of model performance with detailed metrics
 
-## 📊 Dataset
+##  Dataset
 
 We used the **IMDB Movie Reviews Dataset**, a benchmark collection for sentiment analysis containing 50,000 movie reviews labeled as positive or negative. This balanced dataset is ideal for binary sentiment classification tasks.
 
@@ -25,7 +25,7 @@ We used the **IMDB Movie Reviews Dataset**, a benchmark collection for sentiment
 - Reviews of varying lengths and complexity
 - Rich vocabulary covering movie-specific terminology
 
-## 🔍 Data Analysis & Preprocessing
+##  Data Analysis & Preprocessing
 
 ### Exploratory Data Analysis
 
@@ -49,7 +49,7 @@ We implemented a comprehensive text preprocessing workflow:
 
 **Justification**: TF-IDF effectively captures keyword importance for traditional ML, while sequential tokenization preserves word order crucial for LSTMs.
 
-## 🧠 Model Implementation
+##  Model Implementation
 
 ### Logistic Regression (Traditional ML)
 
@@ -88,7 +88,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 **Justification**: LSTM networks excel at capturing long-range dependencies in sequential data like text, preserving word order and context that traditional ML models ignore.
 
-## 🧪 Experiments and Results
+##  Experiments and Results
 
 ### Logistic Regression Experiments
 
@@ -112,7 +112,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 - Dropout was critical for preventing overfitting in LSTM models
 - LSTM models consistently outperformed Logistic Regression, especially on longer and more complex reviews
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 
 We evaluated our models using multiple complementary metrics:
 
@@ -132,7 +132,7 @@ We tracked training and validation metrics to detect overfitting:
 
 **Justification**: Using multiple metrics provides a more comprehensive view of model performance than accuracy alone, particularly for understanding error types.
 
-## 🔮 Conclusion and Future Work
+##  Conclusion and Future Work
 
 ### Key Findings
 - LSTM outperformed Logistic Regression with 1-2% higher accuracy and F1 scores
@@ -150,7 +150,7 @@ We tracked training and validation metrics to detect overfitting:
 - Add additional features like POS tags and n-grams
 - Test cross-domain generalization on different types of reviews
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 sentiment-analysis/
@@ -169,7 +169,7 @@ sentiment-analysis/
 └── README.md                  # Project documentation
 ```
 
-## 🛠️ Setup and Installation
+##  Setup and Installation
 
 ```bash
 # Clone the repository
@@ -187,7 +187,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/sentiment_analysis.ipynb
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Training Models
 To train both models from scratch:
@@ -214,20 +214,20 @@ lstm_model = load_model('models/lstm_model.h5')
 # See notebook for preprocessing steps
 ```
 
-## 👥 Team Contributions
+##  Team Contributions
 
 - **Jane Doe**: EDA, data preprocessing, model evaluation
 - **John Smith**: LSTM implementation, hyperparameter tuning
 - **Alice Johnson**: Logistic regression modeling, documentation
 - **Bob Brown**: Visualization, experiment design, report writing
 
-## 📚 Citations
+##  Citations
 
 - Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011). Learning Word Vectors for Sentiment Analysis. In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics* (pp. 142–150).
 - Chollet, F. (2015). *Keras*. https://github.com/keras-team/keras
 - Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, E. (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research, 12*, 2825-2830.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
