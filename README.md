@@ -216,10 +216,10 @@ lstm_model = load_model('models/lstm_model.h5')
 
 ##  Team Contributions
 
-- **Jane Doe**: EDA, data preprocessing, model evaluation
-- **John Smith**: LSTM implementation, hyperparameter tuning
-- **Alice Johnson**: Logistic regression modeling, documentation
-- **Bob Brown**: Visualization, experiment design, report writing
+- **NGUM**: EDA, data preprocessing, model evaluation
+- **B**: LSTM implementation, hyperparameter tuning
+- **C**: Logistic regression modeling, documentation
+- **D**: Visualization, experiment design, report writing
 
 ##  Citations
 
@@ -229,6 +229,4 @@ lstm_model = load_model('models/lstm_model.h5')
 
 ##  License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Similar code found with 1 license type
+This project is licensed under the ML- Techn_Groupwork at ALU.
