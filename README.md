@@ -173,7 +173,7 @@ sentiment-analysis/
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/sentiment-analysis.git
+git clone https://github.com/IkireziI/Sentiment_analysis-Assignment.git
 cd sentiment-analysis
 
 # Create and activate virtual environment (optional but recommended)
@@ -217,9 +217,9 @@ lstm_model = load_model('models/lstm_model.h5')
 ##  Team Contributions
 
 - **NGUM**: EDA, data preprocessing, model evaluation
-- **B**: LSTM implementation, hyperparameter tuning
+- **Inès**: LSTM implementation, hyperparameter tuning
 - **C**: Logistic regression modeling, documentation
-- **D**: Visualization, experiment design, report writing
+- **D**: Visualization, experiment design, report writing 
 
 ##  Citations
 
