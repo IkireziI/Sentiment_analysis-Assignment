@@ -214,8 +214,8 @@ lstm_model = load_model('models/lstm_model.h5')
 
 - **NGUM**: EDA, data preprocessing, model evaluation
 - **Inès**: LSTM implementation, hyperparameter tuning
-- **C**: Logistic regression modeling, documentation
-- **D**: Visualization, experiment design, report writing 
+- **Theodora**: Logistic regression modeling, documentation
+- **Josiane**: Visualization, experiment design, report writing 
 
 ##  Citations
 
