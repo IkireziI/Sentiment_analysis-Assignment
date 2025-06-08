@@ -164,7 +164,7 @@ sentiment-analysis/
 ├── notebooks/                 # Jupyter notebooks
 │   └── sentiment_analysis.ipynb  # Main analysis notebook
 
-
+```
 ##  Setup and Installation
 
 ```bash
