@@ -161,19 +161,13 @@ sentiment-analysis/
 │   └── logistic_model.pkl     # Trained Logistic Regression model
 ├── notebooks/                 # Jupyter notebooks
 │   └── sentiment_analysis.ipynb  # Main analysis notebook
-├── src/                       # Source code
-│   ├── preprocessing.py       # Text preprocessing functions
-│   ├── models.py              # Model definitions
-│   └── evaluation.py          # Evaluation functions
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
-```
+
 
 ##  Setup and Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/sentiment-analysis.git
+git clone https://github.com/IkireziI/Sentiment_analysis-Assignment.git
 cd sentiment-analysis
 
 # Create and activate virtual environment (optional but recommended)
@@ -217,9 +211,9 @@ lstm_model = load_model('models/lstm_model.h5')
 ##  Team Contributions
 
 - **NGUM**: EDA, data preprocessing, model evaluation
-- **B**: LSTM implementation, hyperparameter tuning
+- **Inès**: LSTM implementation, hyperparameter tuning
 - **C**: Logistic regression modeling, documentation
-- **D**: Visualization, experiment design, report writing
+- **D**: Visualization, experiment design, report writing 
 
 ##  Citations
 
