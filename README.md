@@ -17,6 +17,8 @@ This project implements and compares sentiment analysis techniques using both tr
 
 ##  Dataset
 
+![Image](https://github.com/user-attachments/assets/49a22e7a-fed6-4600-96bd-368b91fb391d)
+
 We used the **IMDB Movie Reviews Dataset**, a benchmark collection for sentiment analysis containing 50,000 movie reviews labeled as positive or negative. This balanced dataset is ideal for binary sentiment classification tasks.
 
 **Dataset characteristics:**
