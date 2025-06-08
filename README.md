@@ -161,13 +161,7 @@ sentiment-analysis/
 │   └── logistic_model.pkl     # Trained Logistic Regression model
 ├── notebooks/                 # Jupyter notebooks
 │   └── sentiment_analysis.ipynb  # Main analysis notebook
-├── src/                       # Source code
-│   ├── preprocessing.py       # Text preprocessing functions
-│   ├── models.py              # Model definitions
-│   └── evaluation.py          # Evaluation functions
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
-```
+
 
 ##  Setup and Installation
 
